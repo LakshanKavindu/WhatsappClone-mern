@@ -32,7 +32,7 @@ app.use(cors());
 // })
 
 // db config
-const con_url = "mongodb+srv://kavindu_whatsapp:2KSaNx43vAgYvrzJ@cluster0.qooha.mongodb.net/?retryWrites=true&w=majority"
+
 mongoose.connect(con_url);
 
 
